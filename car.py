@@ -1,5 +1,10 @@
+"""A class that can be used to represent a car."""
+
+
 class Car:
+    """A simple attempt to represent a car."""
     def __init__(self, make, model, year):
+        """Initialize attributes to represent a car."""
         self.make = make
         self.model = model
         self.year = year
@@ -22,5 +27,3 @@ class Car:
         self.odometer += mile
 
 
-my_new_car = Car("audi", "a4", 2019)
-print(my_new_car.get_descriptive_name())
